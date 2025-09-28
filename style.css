@@ -41,3 +41,39 @@
   main .hero-text .text p {
     text-transform: uppercase;
   }
+
+  main .image-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+main .image-text .top {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .image-text .top img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .image-text .bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+main .image-text .bottom h1 {
+  font-size: 2.7em;
+  font-weight: 200;
+  line-height: 1;
+  text-transform: uppercase;
+}
+main .image-text .bottom p {
+  font-size: 1.4em;
+  font-weight: 200;
+  font-family: monospace;
+  line-height: 1.5;
+  opacity: 0.8;
+}
