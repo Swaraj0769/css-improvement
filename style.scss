@@ -148,7 +148,68 @@ main {
                 }
             }
         }
-
     }
+}
 
+@media (min-width:900px) {
+    main {
+        padding: 4rem;
+        gap: 4rem;
+
+        .image-text {
+            flex-direction: row-reverse;
+            gap: 4em;
+
+            .bottom {
+                h1 {
+                    font-size: 5em;
+                    letter-spacing: 0.05em;
+                }
+
+                p {
+                    font-size: 2em;
+                }
+
+                .services {
+                    margin-top: auto;
+
+                    .service {
+                        p {
+                            font-size: 2em;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .verticle-text {
+            flex-direction: row;
+            gap: 4em;
+
+            .top {
+                width: 30%;
+            }
+
+            .bottom {
+                width: 70%;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+
+                .text {
+                    width: 70%;
+                    display: flex;
+                    flex-direction: column;
+
+                    h1 {
+                        font-size: 6em;
+                    }
+
+                    p {
+                        margin-top: auto;
+                    }
+                }
+            }
+        }
+    }
 }

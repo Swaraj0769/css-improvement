@@ -128,4 +128,51 @@ main .verticle-text .bottom .text p {
   font-family: monospace;
   font-size: 1.5em;
   opacity: 0.6;
+}
+
+@media (min-width: 900px) {
+  main {
+    padding: 4rem;
+    gap: 4rem;
+  }
+  main .image-text {
+    flex-direction: row-reverse;
+    gap: 4em;
+  }
+  main .image-text .bottom h1 {
+    font-size: 5em;
+    letter-spacing: 0.05em;
+  }
+  main .image-text .bottom p {
+    font-size: 2em;
+  }
+  main .image-text .bottom .services {
+    margin-top: auto;
+  }
+  main .image-text .bottom .services .service p {
+    font-size: 2em;
+  }
+  main .verticle-text {
+    flex-direction: row;
+    gap: 4em;
+  }
+  main .verticle-text .top {
+    width: 30%;
+  }
+  main .verticle-text .bottom {
+    width: 70%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  main .verticle-text .bottom .text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  main .verticle-text .bottom .text h1 {
+    font-size: 6em;
+  }
+  main .verticle-text .bottom .text p {
+    margin-top: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
